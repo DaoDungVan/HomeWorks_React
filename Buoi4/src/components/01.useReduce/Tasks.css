@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+ul {
+  padding-inline-start: 10px;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 8px 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-content {
+  display: flex;
+}
+
+.task-content input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.task-text {
+  font-style: italic;
+}
+
+.task-edit-text {
+  font-style: italic;
+  color: lime;
+  background-color: black;
+}
+
+button {
+  min-width: 50px;
+}
